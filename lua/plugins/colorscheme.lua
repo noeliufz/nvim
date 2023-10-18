@@ -37,9 +37,12 @@ return {
     },
   },
   {
+    "neanias/everforest",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-macchiato",
+      colorscheme = "everforest",
     },
   },
 }
