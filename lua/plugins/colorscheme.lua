@@ -33,7 +33,8 @@ return {
     },
   },
   {
-    "haishanh/night-owl.vim",
+    "oxfist/night-owl.nvim",
+    transparent_background = true,
   },
   {
     "LazyVim/LazyVim",
