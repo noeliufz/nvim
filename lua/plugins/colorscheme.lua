@@ -33,9 +33,12 @@ return {
     },
   },
   {
+    "haishanh/night-owl.vim",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "night-owl",
     },
   },
 }
