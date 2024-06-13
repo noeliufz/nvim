@@ -17,6 +17,7 @@ return {
           "--completion-style=detailed",
           "--function-arg-placeholders",
           "--fallback-style=microsoft",
+          "--compile-commands-dir=./build",
         },
       },
     },
