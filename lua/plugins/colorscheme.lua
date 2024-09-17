@@ -1,5 +1,5 @@
 return {
-  { "ellisonleao/gruvbox.nvim", opts = {
+  { "ellisonleao/gruvbox.nvim", lazy = false, opts = {
     transparent_mode = true,
   } },
   {
@@ -7,6 +7,7 @@ return {
   },
   {
     "projekt0n/github-nvim-theme",
+    lazy = false,
     config = function()
       require("github-theme").setup({
         options = {
@@ -39,7 +40,10 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      -- colorscheme = "github_dark_tritanopia",
+      colorscheme = "catppuccin-mocha",
+      -- colorscheme = "gruvbox",
+      -- colorscheme = "ayu",
     },
   },
 }
