@@ -1,9 +1,10 @@
 return {
-  { "ellisonleao/gruvbox.nvim", lazy = false, opts = {
-    transparent_mode = true,
-  } },
+  -- { "ellisonleao/gruvbox.nvim", lazy = false, opts = {
+  -- transparent_mode = true,
+  -- } },
+  { "ayu-theme/ayu-vim" },
   {
-    "neanias/everforest",
+    "loctvl842/monokai-pro.nvim",
   },
   {
     "projekt0n/github-nvim-theme",
@@ -37,13 +38,14 @@ return {
     "oxfist/night-owl.nvim",
     transparent_background = true,
   },
+  { "shaunsingh/nord.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "github_dark_tritanopia",
-      colorscheme = "catppuccin-mocha",
-      -- colorscheme = "gruvbox",
-      -- colorscheme = "ayu",
+      -- colorscheme = "catppuccin-frappe",
+      colorscheme = "monokai-pro",
+      -- colorscheme = "nord",
     },
   },
 }

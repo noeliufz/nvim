@@ -1,0 +1,22 @@
+-- return {
+--   "hrsh7th/nvim-cmp",
+--   version = false, -- last release is way too old
+--   event = "InsertEnter",
+--   dependencies = {
+--     "hrsh7th/cmp-nvim-lsp",
+--     "hrsh7th/cmp-buffer",
+--     "hrsh7th/cmp-path",
+--   },
+--   option = function()
+--     local cmp = require("cmp")
+--     cmp.setup({
+--       window = {
+--         completion = {
+--           -- winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,Search:None",
+--           col_offset = -3,
+--           side_padding = 0,
+--         },
+--       },
+--     })
+--   end,
+-- }

@@ -8,3 +8,4 @@
 -- vim.cmd("hi NeoTreeNormalNC ctermbg=None guibg=None")
 
 -- vim.api.nvim_command("let g:everforest_transparent_background=1")
+-- vim.cmd("highlight Pmenu guifg=NONE")
